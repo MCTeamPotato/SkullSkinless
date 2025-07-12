@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "package": "me.kall.skullskinless.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "overwrites": {
+    "conformVisibility": false
+  },
+  "minVersion": "0.8",
+  "client": [
+    "block.SkullBlockRendererMixin"
+  ],
+  "mixins": [
+    "item.FillPlayerHeadMixin",
+    "block.PlayerHeadBlockMixin",
+    "item.PlayerHeadItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

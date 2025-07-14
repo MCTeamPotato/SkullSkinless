@@ -1,6 +1,6 @@
 package me.kall.skullskinless;
 
-import net.minecraftforge.fml.common.Mod;
+import net.neoforged.fml.common.Mod;
 
 @Mod(SkullSkinless.MOD_ID)
 public final class SkullSkinless {
